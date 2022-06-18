@@ -28,7 +28,71 @@ function ADDMORE()
 {
     //let tabl = document.getElementsByClassName("tab");
     //let nw = document.createElement;
-    document.getElementById("tabl").innerHTML+="<tr style='padding:10px 20px 10px 20 px;'>"+"<td><input type='text' class='sub' placeholder='SUBJECT'></td>"+"<td><input type='text' class='Credit' placeholder='cd'><td><select class='grade' >"
+    document.getElementById("tabl").innerHTML+=
+    '<tr>'+
+           '<td>'
+           +         '<input type="text" class="sub" placeholder="SUBJECT">'
+                +'</td>'
+                +'<td>'
+                  +'  <p><input type="text" class="Credit" placeholder="cd"></p>'
+
+                +'</td>'
+                +'<td><select class="grade">'
+
+    +'<option value="None">None</option>'
+
+    +'<option value="A+">A+</option>'
+    +'<option value="A">A</option>'
+    +'<option value="A-">A-</option>'
+    +'<option value="B+">B+</option>'
+    +'<option value="B">B</option>'
+    +'<option value="B-">B-</option>'
+    +'<option value="C+">C+</option>'
+    +'<option value="C">C</option>'
+    +'<option value="C-">C-</option>'
+    +'<option value="D+">D+</option>'
+    +'<option value="D">D</option>'
+    +'<option value="F">F</option>'
+    +'<option value="WF">WF</option>'
+
++'</select>'
++'</td>'
++'<tr>'+
+'<td>'
++         '<input type="text" class="sub" placeholder="SUBJECT">'
+     +'</td>'
+     +'<td>'
+       +'  <p><input type="text" class="Credit" placeholder="cd"></p>'
+
+     +'</td>'
+     +'<td><select class="grade">'
+
++'<option value="None">None</option>'
+
++'<option value="A+">A+</option>'
++'<option value="A">A</option>'
++'<option value="A-">A-</option>'
++'<option value="B+">B+</option>'
++'<option value="B">B</option>'
++'<option value="B-">B-</option>'
++'<option value="C+">C+</option>'
++'<option value="C">C</option>'
++'<option value="C-">C-</option>'
++'<option value="D+">D+</option>'
++'<option value="D">D</option>'
++'<option value="F">F</option>'
++'<option value="WF">WF</option>'
+
++'</select>'
++'</td>'
+    
+    
+    
+    
+    
+    
+    
+    /*"<tr style='padding:10px 20px 10px 20 px;'>"+"<td><input type='text' class='sub' placeholder='SUBJECT'></td>"+"<td><input type='text' class='Credit' placeholder='cd'><td><select class='grade' >"
                     
                     +"<option value='None'>None</option>"
 					+"<option value='A+'>A+"
@@ -62,7 +126,7 @@ function ADDMORE()
 					+"<option value='F'>F"
                     +"<option value='WF'>WF"
                 
-            +"</select></tr>";
+            +"</select></tr>";*/
             		
 
 }
