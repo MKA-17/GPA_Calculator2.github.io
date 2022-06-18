@@ -1,5 +1,4 @@
 let inp = document.getElementsByClassName("grade");
-let credit = [2, 3, 3, 3, 3, 1, 1, 1, 1]
 let cd = document.getElementsByClassName("Credit");
 //console.log(cd[0].value);
 function calculate() {
